@@ -182,7 +182,7 @@ const mostrarCarrito = () =>{
     }
 
 }
-let operacion = parseInt(prompt('Elija la operacion que desea realizar \n 1- Ver nuestros productos \n 2-Ver carrito \n Salir'))
+let operacion = parseInt(prompt('Elija la operacion que desea realizar \n 1- Ver nuestros productos \n 2-Ver carrito \n 3-Salir'))
 while(operacion != SALIDA_2){
 
       switch(operacion){
